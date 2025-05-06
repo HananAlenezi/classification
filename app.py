@@ -15,8 +15,6 @@ import os
 MODEL_CACHE_DIR = r"C:\Users\HP\Desktop\Code E3\loaded_models"
 MODEL_DIR = r"C:\Users\HP\Desktop\Code E3\retrained_models"
 
-st.title("Web")
-st.write("PyTorch version:", torch.__version__)
 
 
 # Model file names
