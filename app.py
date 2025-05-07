@@ -11,11 +11,6 @@ import os
 # streamlit run app.py
 
 
-# === Define paths ===
-MODEL_CACHE_DIR = r"C:\Users\HP\Desktop\Code E3\loaded_models"
-MODEL_DIR = r"C:\Users\HP\Desktop\Code E3\retrained_models"
-
-
 
 # Model file names
 MODEL_FILES = {
