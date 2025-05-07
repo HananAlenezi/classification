@@ -52,8 +52,8 @@ def load_model(model_name):
     """Loads a model architecture, applies pretrained and retrained weights."""
     
     # Paths to the model files
-    pretrained_path = os.path.join(MODEL_CACHE_DIR, PRETRAINED_FILES[model_name])
-    retrained_path = os.path.join(MODEL_DIR, MODEL_FILES[model_name])
+    pretrained_path = os.path.join(PRETRAINED_FILES[model_name])
+    retrained_path = os.path.join(MODEL_FILES[model_name])
     
     # Define model architecture
     if model_name == "EfficientNet-B0":
